@@ -1,0 +1,26 @@
+.about-wrapper {
+    padding: 1% 20%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background: #1f1fb061;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-wrapper .para {
+    text-align: justify;
+    height: auto;
+    /* border: 1px solid; */
+    height: auto;
+    padding: 0 5%;
+    box-shadow: 0px 1px 4px 2px skyblue;
+    line-height: 25px;
+}
+.para h1{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.laguage{
+    line-height: 20px;
+    padding:  0 10%;
+}

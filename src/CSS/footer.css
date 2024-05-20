@@ -1,0 +1,27 @@
+.footer{
+    height: 200px;
+    border: 1px solid;
+    background-color: black;
+}
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    padding: 2% 2%;
+    color: wheat;
+    /* text-decoration: none; */
+}
+.links a{
+    
+    color: wheat;
+}
+.links img{
+    height: auto;
+    width: 100px;
+}
+.footer-img{
+    display: flex;
+    justify-content: space-evenly;
+}

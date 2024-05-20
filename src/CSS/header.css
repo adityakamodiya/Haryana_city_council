@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    background: #7a2937;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    align-items: center;
+    padding: 0% 5%;
+}
+.header img{
+    height: 120px;
+    cursor: pointer;
+    width: 300px;
+
+}
+.header img:hover{
+    background: #7c3e49;
+    border-radius: 10%;
+    transition: .5s all ease-in-out;
+}
+.header ul {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li {
+    list-style: none;
+    margin: 0 5%;
+    font-size: 18px;
+}
+li a {
+    color: #82822d;
+}

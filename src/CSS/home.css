@@ -1,0 +1,129 @@
+
+.budhet-information {
+    /* border: 1px solid; */
+    margin: 10px 0;
+    background-color: wheat;
+    padding: 1% 8%;
+}
+#middle-section
+{ background-color: whitesmoke;
+    height: auto;
+    /* border: 1px solid; */
+    padding: 0 5%;
+}
+.row1 ,.row2,.row3
+{
+display: flex;
+justify-content: space-between;
+height: auto;
+/* padding: 0 1%; */
+}
+.row1 div{ color: black;
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 200px;
+    width: 48%;
+    /* border: 1px solid; */
+}
+ .row2{
+     justify-content: space-evenly;
+ }
+.row2 div{
+    margin: 5px 0;
+    height: 150px;
+    width: 40%;
+    border-radius: 5px;
+    /* border: 1px solid; */
+}
+.row3 div {
+    margin: 5px 0;
+
+    height: 200px;
+    width: 48%;
+    border-radius: 5px;
+    /* border: 1px solid; */
+}
+.row4{
+    display: flex;
+    
+    /* padding: 0 1%; */
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.row4 div{
+    margin: 5px 0;
+    /* border: 1px solid; */
+    padding: 2% 5%;
+}
+
+.row1 div,.row2 div,.row3 div 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+div p{
+margin: 1% 0;
+}
+.row4 div{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: chocolate;
+}
+.row4 div:hover {
+    background-color: yellow;
+    transition: .5s all ease-in-out;
+}
+.council-tax{
+    background-color: skyblue;
+}
+.council-tax:hover{
+    background-color: rgba(93, 66, 66, 0.38) ;
+    border-radius: 10%;
+    transition: .5s all ease-in-out;    
+}
+.road-travel{
+    background-color: rgba(93, 66, 66, 0.38) ;
+}
+.road-travel:hover{
+    background-color: skyblue;
+    border-radius: 10%;
+    transition: .5s all ease-in-out;  
+
+}
+.school-learning{
+    background-color: gray;
+}
+.school-learning:hover{
+    background-color: peru;
+    border-radius: 10%;
+    transition: .5s all ease-in-out;  
+
+}
+.benifits-support{
+    background-color: peru;
+}
+.benifits-support:hover{
+    background-color: gray;
+    border-radius: 10%;
+    transition: .5s all ease-in-out;  
+}
+.housing{
+    background-color: green;
+}
+.housing:hover{
+    background-color: rgba(210, 13, 29, 0.671);    
+    border-radius: 10%;
+    transition: .5s all ease-in-out;  
+}
+.waste-recycle{
+    background-color: rgba(210, 13, 29, 0.671);
+}
+.waste-recycle:hover{
+    background-color: green;
+     border-radius: 10%;
+    transition: .5s all ease-in-out;  
+
+}
