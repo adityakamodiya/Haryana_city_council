@@ -6,7 +6,7 @@
     padding: 1% 8%;
 }
 #middle-section
-{ background-color: whitesmoke;
+{ background-color: rgb(209, 199, 199);
     height: auto;
     /* border: 1px solid; */
     padding: 0 5%;
@@ -70,59 +70,59 @@ margin: 1% 0;
 .row4 div{
     font-size: 18px;
     font-weight: 700;
-    background-color: chocolate;
+    background-color:#7a2937;
 }
 .row4 div:hover {
-    background-color: yellow;
+    background-color: rgba(176, 132, 132, 0.38) ;
     transition: .5s all ease-in-out;
 }
 .council-tax{
-    background-color: skyblue;
+    background-color: #aa7061;
 }
 .council-tax:hover{
-    background-color: rgba(93, 66, 66, 0.38) ;
+    background-color: rgba(154, 87, 87, 0.38) ;
     border-radius: 10%;
     transition: .5s all ease-in-out;    
 }
 .road-travel{
-    background-color: rgba(93, 66, 66, 0.38) ;
+    background-color: #aa7061;
 }
 .road-travel:hover{
-    background-color: skyblue;
+    background-color:rgba(154, 87, 87, 0.38) ;
     border-radius: 10%;
     transition: .5s all ease-in-out;  
 
 }
 .school-learning{
-    background-color: gray;
+    background-color:  #aa7061;
 }
 .school-learning:hover{
-    background-color: peru;
+    background-color: rgba(154, 87, 87, 0.38) ;
     border-radius: 10%;
     transition: .5s all ease-in-out;  
 
 }
 .benifits-support{
-    background-color: peru;
+    background-color:  #aa7061;
 }
 .benifits-support:hover{
-    background-color: gray;
+    background-color: rgba(154, 87, 87, 0.38) ;
     border-radius: 10%;
     transition: .5s all ease-in-out;  
 }
 .housing{
-    background-color: green;
+    background-color: #aa7061;
 }
 .housing:hover{
-    background-color: rgba(210, 13, 29, 0.671);    
+    background-color: rgba(154, 87, 87, 0.38) ; 
     border-radius: 10%;
     transition: .5s all ease-in-out;  
 }
 .waste-recycle{
-    background-color: rgba(210, 13, 29, 0.671);
+    background-color:  #aa7061;
 }
 .waste-recycle:hover{
-    background-color: green;
+    background-color: rgba(154, 87, 87, 0.38) ;
      border-radius: 10%;
     transition: .5s all ease-in-out;  
 
